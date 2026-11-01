@@ -1,2 +1,31 @@
-# distserve-p28
-HSE Distributed Systems Project - P28: DistServe, Disaggregated Prefill and Decode. Team 22
+# DistServe
+
+**Проектное задание:** [P28. DistServe: раздельное выполнение prefill и decode](https://distsys.ru/osukhoroslov/nis2/src/branch/main/project-tasks/p28-distserve.md)
+
+**Участники:**
+
+- Плахута Алексей
+- Серебренников Дан
+- Мазур Александр
+
+## Сокращённый запуск
+
+К первой контрольной точке укажите требования к окружению и команды технических проверок или ссылку на них в `nis/checkpoints/01.md`. Ко второй точке добавьте команды запуска небольшого сквозного примера на обычной машине.
+
+```text
+команды запуска
+```
+
+## Навигация
+
+- [Описание проекта](nis/project.md)
+- [План эксперимента](nis/experiment-plan.md)
+- [Контрольная точка 1](nis/checkpoints/01.md)
+- [Контрольная точка 2](nis/checkpoints/02.md)
+- [Контрольная точка 3](nis/checkpoints/03.md)
+- [Состояние проекта](nis/status.md)
+- [Результаты](nis/results.md)
+- [Финальная версия](nis/final.md)
+- Код: [путь]
+- Тесты: [путь]
+- Данные: [путь или описание внешнего хранилища]
