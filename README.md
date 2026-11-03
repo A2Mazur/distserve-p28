@@ -35,6 +35,7 @@ python3 -m venv .venv
 - [Контрольная точка 1](nis/checkpoints/01.md)
 - [Состояние проекта](nis/status.md)
 - [Результаты](nis/results.md)
+- [Описание применения генеративной модели](nis/ai-usage.md)
 - [Адаптер эталона и аналитические проверки](scripts/checkpoint1.py)
 - [Проверка целостности свидетельств](scripts/verify_evidence.py)
 - [Входы и настройки проверок](configs/checkpoint-1.json)
