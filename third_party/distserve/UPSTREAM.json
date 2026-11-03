@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/LLMServe/DistServe",
+  "commit": "82831f1604cc6b10bebd360f6c437a07790dde9f",
+  "license": "Apache-2.0",
+  "modified": false,
+  "purpose": "Unmodified reference simulator dependency closure; not the independent team simulator.",
+  "sha256": {
+    "simdistserve/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simdistserve/constants.py": "fb7620980ce290300e5d972d9a0340549ac516d2e588a10d6044d864dce30cdc",
+    "simdistserve/utils.py": "106f8f28e2f6b57edd0fd784c935fcb66268e5fda9fb99634caee34ba3d434e9",
+    "simdistserve/base/__init__.py": "d41dea4837879dbe070c223dd897d40fc25551c28b56f09c37f2c5b91940cf7c",
+    "simdistserve/base/request.py": "b9c3e5965f9f148d211ef2b0e6c6e439ddeba18972b017386c2341d0e317c9df",
+    "simdistserve/base/scheduler.py": "782e8ddc32432f39cf0eefb1459a1ab2a2abc9e27b99261a755f611834fb388d",
+    "simdistserve/base/worker.py": "a628c3eb5e6da26cef08ff2afb058a6277566eba12d0987c2d543832ef6ac9d9",
+    "simdistserve/base/workload.py": "5772816f83d3e88f65566bd5fec851f06637ce5dc2cdef2b6945b196a8393656",
+    "simdistserve/base/organize_data.py": "2eb0dc56ec27a16c68dcc0c3c38d53be6b63021bffa0475d676e883056575c00",
+    "simdistserve/clusters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simdistserve/clusters/disagg.py": "45009510036c417e4a1975b0f408b40aa1a128342c0a3b77851d2354096d3115",
+    "simdistserve/clusters/vllm.py": "ca02ec041900c2954b107731d5c96aa9ba5929d10adc7d2b25752aeb5565d7b0",
+    "simdistserve/estimators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "simdistserve/estimators/time_estimator.py": "f7ac76a8b5c15568a4e0fbbea89868be99363682664fc7c8c11663835f52d87f",
+    "simdistserve/estimators/profile_data/profiler-a100-80g.distserve.json": "f5daa7346d6c0e3a69a830ac4ece11432891e09d610bcf3125d916c48b31f512",
+    "simdistserve/estimators/profile_data/profiler-a100-80g.vllm.json": "ab24e00e0e1165fc45c9fbaeaa36aeb1f67cfe21d3961cb995b385a31c95f751",
+    "LICENSE": "69404908366b09fec94adb695525bad9179f10526d237eb8b3f946533554c640"
+  }
+}
