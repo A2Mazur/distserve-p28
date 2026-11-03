@@ -1,0 +1,7 @@
+# Tested checkpoint environment; CPU only. Python 3.11-3.14.
+simpy==4.1.1
+numpy==2.3.4
+pandas==2.3.3
+python-dateutil==4.0.0
+pytz==2026.6
+tzdata==2026.6

@@ -1,0 +1,31 @@
+{
+  "model": "facebook/opt-13b",
+  "profile_engine": "distserve",
+  "tensor_parallelism": 1,
+  "pipeline_parallelism": 1,
+  "total_workers": 2,
+  "prefill_max_batch_size": 1,
+  "prefill_max_tokens": 8192,
+  "decode_max_tokens": 8192,
+  "ttft_slo_ms": 200.0,
+  "tpot_slo_ms": 100.0,
+  "seeds": [7, 11, 19],
+  "cases": [
+    {"name": "single", "analytical": true, "requests": [
+      {"id": 0, "arrival_ms": 0.0, "input_tokens": 512, "decode_steps": 4}
+    ]},
+    {"name": "isolated", "analytical": true, "requests": [
+      {"id": 0, "arrival_ms": 0.0, "input_tokens": 128, "decode_steps": 4},
+      {"id": 1, "arrival_ms": 1000.0, "input_tokens": 512, "decode_steps": 8},
+      {"id": 2, "arrival_ms": 2000.0, "input_tokens": 1024, "decode_steps": 4}
+    ]},
+    {"name": "burst", "analytical": false, "requests": [
+      {"id": 0, "arrival_ms": 0.0, "input_tokens": 128, "decode_steps": 8},
+      {"id": 1, "arrival_ms": 0.0, "input_tokens": 256, "decode_steps": 4},
+      {"id": 2, "arrival_ms": 0.0, "input_tokens": 512, "decode_steps": 8},
+      {"id": 3, "arrival_ms": 0.0, "input_tokens": 128, "decode_steps": 4},
+      {"id": 4, "arrival_ms": 0.0, "input_tokens": 256, "decode_steps": 8},
+      {"id": 5, "arrival_ms": 0.0, "input_tokens": 512, "decode_steps": 4}
+    ]}
+  ]
+}

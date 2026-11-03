@@ -1,0 +1,20 @@
+{
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "simpy": "4.1.1",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "python-dateutil": "4.0.0",
+    "pytz": "2026.6",
+    "tzdata": "2026.6"
+  },
+  "upstream_commit": "82831f1604cc6b10bebd360f6c437a07790dde9f",
+  "command": "python scripts/checkpoint1.py --config configs/checkpoint-1.json --output OUTPUT",
+  "adapter_sha256": "82514663d11b3d4543e576fe64f385df43e7684c7a31d0beaf66c07e8d7bf7e7",
+  "requirements_sha256": "ed0da3185753fd558ed8d8ab0d62fd371958b37401fa3bceed14ff9e082a7e48",
+  "wall_time_s": 0.3386364579782821,
+  "peak_rss_bytes": 85311488,
+  "host_memory_bytes": 17179869184
+}

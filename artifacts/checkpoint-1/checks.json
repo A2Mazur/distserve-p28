@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "reference_files_verified": 17,
+  "runs": 18,
+  "request_completions": 60,
+  "analytical_checks": 96,
+  "max_analytical_error_ms": 5.400124791776761e-13,
+  "checks": [
+    "upstream SHA-256",
+    "equal worker budget",
+    "request and decode-step conservation",
+    "event chronology",
+    "queue drain",
+    "latency and token-interval decomposition",
+    "closed-form no-queue reference",
+    "deterministic repeatability"
+  ],
+  "scope": "Reference feasibility and metrics only; no independent simulator or final experiment."
+}

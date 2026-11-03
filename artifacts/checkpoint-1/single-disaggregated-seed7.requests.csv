@@ -1,0 +1,2 @@
+request_id,arrival_ms,input_tokens,decode_steps,logical_output_tokens,first_token_ms,finish_ms,prefill_wait_ms,ttft_ms,decode_ms,tpot_ms,max_inter_token_ms,total_ms,slo_ok
+0,0.0,512,4,5,75.1998810534344,164.5883530353607,0.0,75.1998810534344,89.38847198192632,22.34711799548158,22.348208398960224,164.5883530353607,True

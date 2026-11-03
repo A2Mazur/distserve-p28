@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "model": "OPT-13B",
+  "input_tokens": 512,
+  "layers": 40,
+  "hidden_size": 5120,
+  "bytes_per_element": 2,
+  "kv_bytes": 419430400,
+  "kv_MiB": 400.0,
+  "architecture_source": "https://huggingface.co/facebook/opt-13b/blob/main/config.json",
+  "assumption": "K and V for input context, TP=1, FP16, no compression, no first output token",
+  "transfer_ms_zero_latency": {
+    "1": 3355.4432,
+    "10": 335.54432,
+    "25": 134.217728,
+    "100": 33.554432
+  },
+  "checks": [
+    "zero payload",
+    "GB/Gbit/second to millisecond conversion",
+    "double size",
+    "double bandwidth",
+    "add fixed latency"
+  ],
+  "scope": "Arithmetic feasibility only; a contended network event model remains future work."
+}
